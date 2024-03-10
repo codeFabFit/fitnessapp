@@ -4,7 +4,10 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>welcome to the FabFitForever App</Text>
+      <Text> Workout Plans at Your Pace </Text>
+      <Text> Get Fab, Feel Fit & Let It Last Forever </Text>
+
       <StatusBar style="auto" />
     </View>
   );
