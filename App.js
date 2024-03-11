@@ -1,12 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Login from './App/Assets/Pages/Login';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>welcome to the FabFitForever App</Text>
-      <Text> Workout Plans at Your Pace </Text>
-      <Text> Get Fab, Feel Fit & Let It Last Forever </Text>
+      <Login/>
 
       <StatusBar style="auto" />
     </View>
